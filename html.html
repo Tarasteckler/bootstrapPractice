@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Website</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!--Breadcrumb menu-->
+<ul class="breadcrumb">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Tara</a></li>
+    <li><a href="#">Robison</a></li>
+    <li><a href="#">Steckler</a></li>
+</ul>
+<!--Title-->
+<div class="container">
+    <h1>Bootstrap Practice Page<small> Enjoy the website :D</small></h1>
+
+    <p><kbd>This is some text.</kbd></p>
+    <button type="button" class="btn btn-default">
+        <span class="glyphicon glyphicon-search"></span> Search
+    </button><br><br>
+    <!--Dropdown menu-->
+    <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Options
+            <span class="caret"></span></button>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Swimming</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Camping</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Scuba Diving</a></li>
+            <li role="presentation" class="divider"></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Other</a></li>
+        </ul>
+    </div>
+
+</div>
+
+<!--Button group-->
+<br><br>
+<div class="btn-group btn-group-justified">
+    <a href="#" class="btn btn-primary">Apples <span class="badge">7</span></a>
+    <a href="#" class="btn btn-success">Pears <span class="badge">10</span></a>
+    <a href="#" class="btn btn-warning">Tangerines <span class="badge">10000</span></a>
+</div>
+
+<Br><br>
+<!--Column content-->
+<div class="row">
+    <div class="col-lg-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+    <div class="col-lg-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+    <div class="col-lg-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+</div>
+
+<!--Block quote-->
+<div class="container">
+    <h1>Oprah Block Quote</h1>
+    <blockquote>
+        <p>Think like a queen. A queen is not afraid to fail. Failure is another steppingstone to greatness.</p>
+        <footer>Oprah Winfrey</footer>
+    </blockquote>
+</div>
+
+<!--Alert-->
+<div class="alert alert-danger fade in" style="width:25%; margin-left: auto; margin-right: auto">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    <strong>Danger!</strong> Beware of the devil!
+</div>
+
+<!--Table-->
+<div class="container">
+    <h2>Random Hover Row Table</h2>
+    <p>The .table-hover class enables a hover state on table rows:</p>
+    <table class="table table-hover table-striped">
+        <thead>
+        <tr>
+            <th>First name</th>
+            <th>Last name</th>
+            <th>Email</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Tara</td>
+            <td>Steckler</td>
+            <td>tarastecker@students.berkeley.net</td>
+        </tr>
+        <tr>
+            <td>Mary</td>
+            <td>Moe</td>
+            <td>mary@example.com</td>
+        </tr>
+        <tr>
+            <td>July</td>
+            <td>Dooley</td>
+            <td>july@example.com</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<!--Images-->
+<img src="img/cinque.jpg" class="img-rounded" alt="Cinque Terre" style="height: 30%; width: 30%;">
+<img src="img/cinque.jpg" class="img-circle" alt="Cinque Terre" style="height: 30%; width: 30%;">
+<img src="img/cinque.jpg" class="img-thumbnail" alt="Cinque Terre" style="height: 30%; width: 30%;">
+
+<!--Progress bars-->
+<div class="progress">
+    <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar"
+         aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+        40% Complete (success)
+    </div>
+</div>
+
+<div class="progress">
+    <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar"
+         aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+        50% Complete (info)
+    </div>
+</div>
+
+<div class="progress">
+    <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar"
+         aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+        60% Complete (warning)
+    </div>
+</div>
+
+<div class="progress">
+    <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar"
+         aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+        70% Complete (danger)
+    </div>
+</div>
+
+<!--Collapsible content-->
+<div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                    Summer</a>
+            </h4>
+        </div>
+        <div id="collapse1" class="panel-collapse collapse">
+            <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo consequat.</div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                    Winter</a>
+            </h4>
+        </div>
+        <div id="collapse2" class="panel-collapse collapse">
+            <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo consequat.</div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                    Fall</a>
+            </h4>
+        </div>
+        <div id="collapse3" class="panel-collapse collapse">
+            <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo consequat.</div>
+        </div>
+    </div>
+</div>
+
+
+
+</body>
+</html>
